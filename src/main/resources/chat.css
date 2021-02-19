@@ -1,0 +1,66 @@
+root {
+    display: block;
+}
+.scroll-pane {
+    -fx-background: #FFFFFF;
+    -fx-border-color: #FFFFFF;
+}
+.scroll-pane .viewport {
+    -fx-padding: 10px;
+    -fx-background-image: url('bg.png');
+    -fx-background-size: cover;
+}
+
+.stack-pane {
+    -fx-background: #FFFFFF;
+    -fx-background-color: #FFFFFF;
+}
+
+
+.messages {
+    -fx-line-spacing: 2px;
+    -fx-padding: 10 10 10 10;
+}
+.messages Text {
+    -fx-font-size: 16px;
+    -fx-background: #FFFFFF;
+}
+.root {
+    -fx-background-image: url("bg.png");
+}
+
+.text-flow{
+    -fx-background: #FFFFFF;
+}
+
+.label {
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #55BB44;
+    -fx-background: #FFFFFF;
+
+}
+#welcome-text {
+    -fx-font-size: 32px;
+    -fx-font-family: "Arial Black";
+    -fx-fill: #818181;
+    -fx-effect: innershadow( three-pass-box , rgba(0,0,0,0.7) , 6, 0.0 , 0 , 2 );
+}
+.button {
+    -fx-text-fill: white;
+    -fx-font-family: "Arial Narrow";
+    -fx-font-weight: bold;
+    -fx-background-color: linear-gradient(#2c9ddd, #7fd0fd);
+}
+.timestamp {
+    -fx-fill: #4b4b4b;
+}
+
+.nickname {
+    -fx-font-weight: bold;
+    -fx-fill: blue;
+}
+.my_nickname {
+    -fx-font-weight: bold;
+    -fx-fill: red;
+}
